@@ -350,6 +350,8 @@ Returns user id
 Will return group logs
 !banlist
 Will return group ban list
+!lock fwd
+Will lock forwarding to group 
 » U can use both "/" and "!" 
 » Only mods, owner and admin can add bots in group
 » Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
