@@ -18,7 +18,7 @@ local function run(msg, matches)
     local chat = get_receiver(msg)
     local user = "user#id"..msg.from.id
     if lock_contact == "yes" then
-        send_large_msg(get_receiver(msg), "اشتراک گذاری مخاطب ممنوعه😐✋")
+        send_large_msg(get_receiver(msg), "Share Contacts Not Allowed -_- ")
         chat_del_user(chat, user, ok_cb, true)
     end
 end
